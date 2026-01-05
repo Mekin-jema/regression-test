@@ -1,0 +1,58 @@
+Platform	 staus	Moudgule	URL	URL	 	 	
+							
+web							
+	Pass	Log in	https://safaricom-partnerhub.safaricom.et/auth/login				
+	Pass		https://safaricom-partnerhub.safaricom.et/				
+							
+	Pass	OP Dashboard	https://safaricom-partnerhub.safaricom.et/dashboard				
+							
+	Pass	Users management 	https://safaricom-partnerhub.safaricom.et/users				
+							
+			https://safaricom-partnerhub.safaricom.et/hierarchyAndPermission				
+							
+			https://safaricom-partnerhub.safaricom.et/hierarchyDomains				
+							
+							
+	Pass	Partner Management 	https://safaricom-partnerhub.safaricom.et/merchant-onboarding	https://safaricom-partnerhub.safaricom.et/merchant-onboarding/BaOnboarding			
+				https://safaricom-partnerhub.safaricom.et/merchant-onboarding//Reverification			
+				https://safaricom-partnerhub.safaricom.et/merchant-onboarding/partner			
+					https://safaricom-partnerhub.safaricom.et/merchant-onboarding/partner/merchant/ho		
+					https://safaricom-partnerhub.safaricom.et/merchant-onboarding/partner/merchant/store		
+					https://safaricom-partnerhub.safaricom.et/merchant-onboarding/partner/dsa?type=dsa		
+					https://safaricom-partnerhub.safaricom.et/merchant-onboarding/partner/dsa?type=dsp		
+					https://safaricom-partnerhub.safaricom.et/merchant-onboarding/merchantReport		
+					https://safaricom-partnerhub.safaricom.et/merchant-onboarding/dsa-dsp		
+						https://safaricom-partnerhub.safaricom.et/merchant-onboarding/dsa-dsp//report	
+							
+	Pass	Float Management	https://safaricom-partnerhub.safaricom.et/float-management	https://safaricom-partnerhub.safaricom.et/float-management/floatManagement			
+				https://safaricom-partnerhub.safaricom.et/float-management/floatTransferReport			
+				https://safaricom-partnerhub.safaricom.et/float-management/floatConfiguration			
+				https://safaricom-partnerhub.safaricom.et/float-management/performanceDashboard			
+				https://safaricom-partnerhub.safaricom.et/float-management/floatReport			
+							
+	Pass	CTAPP Back Office Portal	https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/	https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/posOutletManagement			
+	"Not working
+ wihout wakanda "			https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/shopVisit			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/configuration/campaignTypes			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/configuration/categories			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/configuration/channelTypes			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/configuration/visitQuestionnaires			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/configuration/questionAnswers			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/configuration/caseManagement			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/report/crm			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/report/tNc			
+				https://safaricom-partner-hub-ctapp-backoffice-management.prod.sma2.safaricomet.net/dsa-map			
+							
+							
+	"Pass
+Not working wihout wakanda "	Mpesa Support 	https://mpesa-product-support-portal.oat.sma2.safaricomet.net/login				
+ 	 	 	 	 	 	 	 
+Mobile CTAPP	Pass	Login/Logout	CTAPP Login 				
+			CTAPP Logout				
+	Pass	POS Outlet Visit	MM Visit				
+	Pass	POS Outlet Onboaring	MM onboaring 				
+	Pass	BA Onboarding 	Agent Onbaording 				
+	Pass	Business Mapping 	mapping mm				
+							
+							
+	40						
