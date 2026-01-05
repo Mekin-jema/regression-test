@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import {ImapOtpReader} from "../../utils/otp-reader"
 import { LoginPage } from '../../pages/LoginPage';
 import { OtpVerifyPage } from '../../pages/OtpVerifyPage';
-import { DashboardPage } from '../../pages/DashboardPage1';
+import { DashboardPage } from '../../pages/DashboardPage';
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -28,6 +28,9 @@ test.describe('Authentication', () => {
 
   const otpVerify = new OtpVerifyPage(page);
   await otpVerify.inputOtpAndVerify(otp);
+  const dashboardPage = new DashboardPage(page);
+  await dashboardPage.assertLoaded();
+  await dashboardPage.verifyDashboardLoaded();
 
 
 

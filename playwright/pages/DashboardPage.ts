@@ -14,4 +14,8 @@ export class DashboardPage {
     await expect(this.page).toHaveTitle(/Merchant Onboarding Portal|Partner Management|One Platform/i);
     await expect(this.page.locator('body')).toContainText(/Partner Management/i);
   }
+  async verifyDashboardLoaded() {
+    await expect(this.page.locator('body')).toBeVisible();
+  }
+
 }
